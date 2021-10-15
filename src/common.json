@@ -7,8 +7,9 @@
 		"plugin:import/errors",
 		"plugin:import/warnings"
 	],
-	"parseOptions": {
-		"ecmaVersion": 2020,
+
+	"parserOptions": {
+		"ecmaVersion": "latest",
 		"sourceType": "module"
 	},
 	"env": {
