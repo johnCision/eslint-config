@@ -20,7 +20,8 @@
 		"immutable",
 		"no-loops",
 		"fp",
-		"import"
+		"import",
+		"spellcheck"
 	],
 	"rules": {
 		"import/no-unresolved": "error",
@@ -56,14 +57,11 @@
     "import/exports-last": "warn",
     "import/no-duplicates": "error",
     "import/no-namespace": "error",
-    "import/extensions": "error",
     "import/order": "error",
     "import/newline-after-import": "error",
-    "import/prefer-default-export": "warn",
     "import/max-dependencies": "error",
     "import/no-unassigned-import": "error",
     "import/no-named-default": "error",
-    "import/no-default-export": "error",
     "import/no-anonymous-default-export": "error",
     "import/group-exports": "warn",
     "import/dynamic-import-chunkname": "error",
@@ -305,7 +303,6 @@
 		"immutable/no-mutation": "warn",
 		"no-loops/no-loops": "warn",
 		"fp/no-arguments": "error",
-		"fp/no-class": "warn",
 		"fp/no-delete": "error",
 		"fp/no-events": "warn",
 		"fp/no-get-set": "error",
@@ -330,11 +327,8 @@
 		"fp/no-nil": "warn",
 		"fp/no-proxy": "error",
 		"fp/no-rest-parameters": "error",
-		"fp/no-this": "warn",
-		"fp/no-throw": "warn",
 		"fp/no-unused-expression": "warn",
 		"fp/no-valueof-field": "error",
-		"no-use-extend-native/no-use-extend-native": "error",
 		"accessor-pairs": "error",
 		"arrow-spacing": [
 			"error",
@@ -362,7 +356,7 @@
 		"getter-return": "error",
 		"indent": [
 			"error",
-			2,
+			"tab",
 			{
 				"ArrayExpression": "first",
 				"CallExpression": {
@@ -452,7 +446,6 @@
 		],
 		"no-self-assign": "error",
 		"no-setter-return": "error",
-		"no-tabs": "error",
 		"no-this-before-super": "error",
 		"no-trailing-spaces": "error",
 		"no-undef": [
